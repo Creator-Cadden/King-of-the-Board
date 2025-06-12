@@ -33,7 +33,7 @@ export default class Queen extends EnemyBase {
 
     this.isShooting = false;
 
-    // ✅ Create Beam instance (no x, y passed anymore)
+    // Create Beam instance (no x, y passed anymore)
     this.beam = new Beam(scene);
 
     this.moveTimer = this.sceneRef.time.addEvent({
@@ -79,7 +79,7 @@ export default class Queen extends EnemyBase {
     this.isShooting = true;
     this.moveTimer.paused = true;
 
-    // ✅ Correct usage of fire(x, y)
+    // Correct usage of fire(x, y)
     this.beam.fire(this.x, this.y);
 
     this.sceneRef.time.delayedCall(2200, () => {
