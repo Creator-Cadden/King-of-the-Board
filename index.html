@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>King of the Board</title>
+  <script src="./lib/phaser.js"></script> <!-- Phaser loaded globally -->
+  <script type="module" src="./src/main.js"></script> <!-- Your main module -->\
+
+  <style> /* CSS code to change white to black to not hur my eyes ToT */
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: black; /* whole page black */
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #phaser-game {
+      background-color: black; /* black behind canvas */
+      border: 4px solid white; /* white border around game */
+      box-sizing: content-box; /* border doesn’t shrink content */
+    }
+  </style>
+
+</head>
+<body>
+  <div id="phaser-game"></div>
+  <span id="description"></span>
+</body>
+</html>

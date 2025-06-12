@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="16" height="16" tilewidth="64" tileheight="64" infinite="0" nextlayerid="2" nextobjectid="1">
+ <editorsettings>
+  <export target="Tilemaps/Board_Base.json" format="json"/>
+ </editorsettings>
+ <tileset firstgid="1" name="square gray dark _png_128px" tilewidth="64" tileheight="64" tilecount="4" columns="2">
+  <image source="../../../../../../Downloads/JohnPablok Cburnett Chess Zip/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/square gray dark _png_128px.png" width="128" height="128"/>
+ </tileset>
+ <tileset firstgid="5" name="square gray light _png_128px" tilewidth="64" tileheight="64" tilecount="4" columns="2">
+  <image source="../../../../../../Downloads/JohnPablok Cburnett Chess Zip/JohnPablok Cburnett Chess set/PNGs/No shadow/128h/square gray light _png_128px.png" width="128" height="128"/>
+ </tileset>
+ <layer id="1" name="Board_Base" width="16" height="16">
+  <data encoding="csv">
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,
+5,1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,
+1,5,1,5,1,5,1,5,1,5,1,5,1,5,1,5
+</data>
+ </layer>
+</map>
